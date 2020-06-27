@@ -9,7 +9,7 @@ generate QR Codes.
 > ![THIS IS NOT THE PACKAGE YOU ARE LOOKING FOR](http://i0.kym-cdn.com/entries/icons/original/000/018/682/obi-wan.jpg)
 >
 > THIS IS **NOT** THE MODULE YOU ARE LOOKING FOR! Please use
-> https://github.com/MurhafSousli/ngx-bar-rating! This repository exists
+> https://github.com/SuperiorJT/angular2-qrcode! This repository exists
 > only for security awareness and training purposes to demonstrate the
 > issue of _typosquatting_ within the OWASP Juice Shop! Please check out
 > https://github.com/bkimminich/juice-shop/issues/368 and
