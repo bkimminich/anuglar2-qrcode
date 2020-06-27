@@ -1,16 +1,32 @@
 [![npm version](https://badge.fury.io/js/angular2-qrcode.svg)](https://badge.fury.io/js/angular2-qrcode)
+
 # angular2-qrcode
-angular2-qrcode is a component that you can easily integrate into your project. It relies on [qrious](https://github.com/neocotic/qrious) to generate QR Codes.
+
+angular2-qrcode is a component that you can easily integrate into your
+project. It relies on [qrious](https://github.com/neocotic/qrious) to
+generate QR Codes.
+
+> ![THIS IS NOT THE PACKAGE YOU ARE LOOKING FOR](http://i0.kym-cdn.com/entries/icons/original/000/018/682/obi-wan.jpg)
+>
+> THIS IS **NOT** THE MODULE YOU ARE LOOKING FOR! Please use
+> https://github.com/MurhafSousli/ngx-bar-rating! This repository exists
+> only for security awareness and training purposes to demonstrate the
+> issue of _typosquatting_ within the OWASP Juice Shop! Please check out
+> https://github.com/bkimminich/juice-shop/issues/368 and
+> https://iamakulov.com/notes/npm-malicious-packages/ for more
+> information!
 
 ## Breaking Changes for 2.0.0
 
-`data` has been replaced with `value`. For those that don't need the new features of `2.0.0`, just keep using `1.0.5`. No change will be needed unless you upgrade.
+`data` has been replaced with `value`. For those that don't need the new
+features of `2.0.0`, just keep using `1.0.5`. No change will be needed
+unless you upgrade.
 
 The `type` field has also been removed.
 
 ## Install
-    
-    npm install angular2-qrcode
+
+        npm install angular2-qrcode
 
 ## How To Use
 
@@ -31,6 +47,7 @@ import { QRCodeModule } from 'angular2-qrcode';
 ```
 
 In component template:
+
 ```
 <div>
     <qr-code [value]="'All QR Code data goes here!'" [size]="150"></qr-code>
@@ -39,18 +56,19 @@ In component template:
 
 ## Parameters
 
-| Attribute        | Type           | Default | Description  |
-| ------------- |-------------| -----|------------|
-| value      | String | '' | Your data string |
-| size      | Number | 100     | This is the height/width of your QR Code component |
-| level | String | 'L'    | QR Correction level ('L', 'M', 'Q', 'H') |
-| background | String | 'white' | The color for the background |
-| backgroundAlpha | Number | 1.0 | The opacity of the background |
-| foreground | String | 'black' | The color for the foreground |
-| foregroundAlpha | Number | 1.0 | The opacity of the foreground |
-| mime | String | 'image/png' | The mime type for the output image |
-| padding | Number | null | The padding around the QR Code |
-| canvas | Boolean | false | Will output a canvas element if true |
+| Attribute       | Type    | Default     | Description                                        |
+|:----------------|:--------|:------------|:---------------------------------------------------|
+| value           | String  | ''          | Your data string                                   |
+| size            | Number  | 100         | This is the height/width of your QR Code component |
+| level           | String  | 'L'         | QR Correction level ('L', 'M', 'Q', 'H')           |
+| background      | String  | 'white'     | The color for the background                       |
+| backgroundAlpha | Number  | 1.0         | The opacity of the background                      |
+| foreground      | String  | 'black'     | The color for the foreground                       |
+| foregroundAlpha | Number  | 1.0         | The opacity of the foreground                      |
+| mime            | String  | 'image/png' | The mime type for the output image                 |
+| padding         | Number  | null        | The padding around the QR Code                     |
+| canvas          | Boolean | false       | Will output a canvas element if true               |
 
 ## License
+
 MIT License
